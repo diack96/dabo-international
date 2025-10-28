@@ -49,7 +49,7 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Dabo International vous accompagne dans tous vos projets immobiliers en Afrique. 
+              Dabo International vous accompagne dans tous vos projets immobiliers au Sénégal. 
               Transparence, fiabilité et expertise au service de vos ambitions.
             </motion.p>
 
@@ -118,7 +118,7 @@ const Hero = () => {
                       <span className="text-8xl">🏢</span>
                     </div>
                     <h3 className="text-3xl font-bold">Immobilier d'Excellence</h3>
-                    <p className="text-xl opacity-90">En Afrique</p>
+                    <p className="text-xl opacity-90">Au Sénégal</p>
                   </div>
                 </div>
                 

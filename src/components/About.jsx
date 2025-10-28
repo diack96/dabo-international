@@ -24,7 +24,7 @@ const About = () => {
   const stats = [
     { icon: FaUsers, number: '500+', label: 'Clients satisfaits' },
     { icon: FaAward, number: '15+', label: 'Années d\'expérience' },
-    { icon: FaGlobe, number: '10+', label: 'Pays couverts' }
+    { icon: FaGlobe, number: '14', label: 'Régions du Sénégal' }
   ]
 
   return (
@@ -49,8 +49,8 @@ const About = () => {
                 <span className="text-blue-600">Votre partenaire de confiance</span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                Depuis notre création en 2008, Dabo International s'engage à offrir des services immobiliers d'exception en Afrique. 
-                Notre équipe d'experts vous accompagne avec passion dans tous vos projets immobiliers.
+                Depuis notre création en 2008, Dabo International s'engage à offrir des services immobiliers d'exception au Sénégal. 
+                Notre équipe d'experts vous accompagne avec passion dans tous vos projets immobiliers dans tout le pays.
               </p>
             </div>
 

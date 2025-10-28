@@ -17,23 +17,56 @@ const Properties = () => {
     },
     {
       id: 2,
-      title: 'Appartement Luxueux',
-      location: 'Abidjan, Côte d\'Ivoire',
+      title: 'Appartement Luxueux Plateau',
+      location: 'Plateau, Dakar',
       price: '850 000 FCFA/mois',
       type: 'À louer',
-      description: 'Appartement de 3 chambres avec vue sur mer et balcon privé. Situé dans un quartier résidentiel prestigieux.',
+      description: 'Appartement de 3 chambres avec vue sur mer et balcon privé. Situé dans le quartier des affaires de Dakar.',
       features: ['3 chambres', '2 salles de bain', '120m²', 'Balcon privé'],
       image: 'apartment',
       status: 'Disponible'
     },
     {
       id: 3,
-      title: 'Terrain Commercial',
-      location: 'Bamako, Mali',
+      title: 'Terrain Commercial à Thiès',
+      location: 'Thiès, Sénégal',
       price: '180 000 000 FCFA',
       type: 'À vendre',
       description: 'Terrain de 2000m² idéal pour projet commercial ou résidentiel. Situé dans une zone en développement.',
       features: ['2000m²', 'Zone commerciale', 'Accès facile', 'Permis de construire'],
+      image: 'land',
+      status: 'Disponible'
+    },
+    {
+      id: 4,
+      title: 'Maison Familiale à Saint-Louis',
+      location: 'Saint-Louis, Sénégal',
+      price: '320 000 000 FCFA',
+      type: 'À vendre',
+      description: 'Charmante maison coloniale de 5 chambres avec cour intérieure. Patrimoine historique de Saint-Louis.',
+      features: ['5 chambres', '3 salles de bain', '350m²', 'Cour intérieure'],
+      image: 'villa',
+      status: 'Disponible'
+    },
+    {
+      id: 5,
+      title: 'Studio Moderne à Saly',
+      location: 'Saly, Sénégal',
+      price: '450 000 FCFA/mois',
+      type: 'À louer',
+      description: 'Studio moderne avec vue sur mer, idéal pour vacances ou résidence secondaire. Proche des plages.',
+      features: ['1 chambre', '1 salle de bain', '45m²', 'Vue sur mer'],
+      image: 'apartment',
+      status: 'Disponible'
+    },
+    {
+      id: 6,
+      title: 'Terrain Résidentiel à Touba',
+      location: 'Touba, Sénégal',
+      price: '95 000 000 FCFA',
+      type: 'À vendre',
+      description: 'Terrain de 1000m² dans un quartier résidentiel calme. Idéal pour construction de villa familiale.',
+      features: ['1000m²', 'Zone résidentielle', 'Accès goudronné', 'Proche mosquée'],
       image: 'land',
       status: 'Disponible'
     }
@@ -92,7 +125,7 @@ const Properties = () => {
             <span className="text-blue-600">Sélectionnées</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Découvrez notre sélection de propriétés exceptionnelles dans les plus belles villes d'Afrique.
+            Découvrez notre sélection de propriétés exceptionnelles exclusivement au Sénégal.
           </p>
         </motion.div>
 
