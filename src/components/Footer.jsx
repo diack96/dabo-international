@@ -18,6 +18,7 @@ const Footer = () => {
       links: [
         { name: 'Mermoz Comico-Dakar, Près de Sonatel, Sénégal', href: '#', icon: FaMapMarkerAlt },
         { name: '+221 77 812 59 05', href: 'tel:+221778125905', icon: FaPhone },
+        { name: '+221 33 812 60 30', href: 'tel:+221338126030', icon: FaPhone },
         { name: 'contact@dabointernational.com', href: 'mailto:contact@dabointernational.com', icon: FaEnvelope }
       ]
     },
@@ -56,7 +57,7 @@ const Footer = () => {
                 <Logo size="default" className="text-white" />
               </div>
               <p className="text-white/80 leading-relaxed mb-6">
-                Votre partenaire de confiance pour tous vos projets immobiliers en Afrique. 
+                Votre partenaire de confiance pour tous vos projets immobiliers au Sénégal. 
                 Nous nous engageons à vous offrir des services d'exception avec transparence et professionnalisme.
               </p>
               <div className="flex space-x-4">
